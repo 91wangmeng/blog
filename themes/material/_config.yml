@@ -1,0 +1,204 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Head info
+head:
+    favicon: "/img/favicon.png"
+    high_res_favicon: "/img/favicon.png"
+    apple_touch_icon: "/img/favicon.png"
+    keywords:
+
+# Jump Links Settings
+url:
+    rss:
+    daily_pic: "#"
+    logo: "http://music.163.com/#/user/home?id=58675408"
+
+
+# ---------------------------------------------------------------
+# Style Settings
+# ---------------------------------------------------------------
+
+# Schemes
+scheme: Paradox
+#scheme: Isolation
+
+# UI & UX: slogan, color, effect
+uiux:
+    slogan: "大家好！欢迎来到Vker的博客"
+    theme_color: "#0097A7"
+    theme_sub_color: "#1be1f4"
+    hyperlink_color: "#116e77"
+    button_color: "rgba(#14635e, 0.92)"
+    android_chrome_color: "#207c52"
+    nprogress_color: "#815d69"
+    nprogress_buffer: "800"
+
+# JS Effect Switches
+js_effect:
+    fade: true
+    smoothscroll: false
+
+# Reading experience
+reading:
+    entry_excerpt: 80
+
+# Thumbnail Settings
+thumbnail:
+    purecolor:
+    random_amount: 38
+
+# Background Settings
+# bing available parameter:
+#     new | color= | type=
+#         color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
+#         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
+background:
+    purecolor: "#74e8f0"
+    bgimg: "/img/bg.jpg"
+    bing:
+        enable: false
+        parameter:
+
+# Images Settings
+img:
+    logo: "/img/logo.png"
+    avatar: "/img/avatar.png"
+    daily_pic: "/img/daily_pic.png"
+    sidebar_header: "/img/sidebar_header.png"
+    footerico: "/img/footer/footer_ico-"
+    random_thumbnail: "/img/random/material-"
+    footer_image:
+        #upyun_logo:
+            #link: "https://www.upyun.com/"
+            #src: "/img/upyun_logo.svg"
+
+# Custom Fonts
+fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+
+# Card Elevation Level
+card_elevation: 2
+
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# SNS Menu
+sns:
+    email: 649278@gmail.com
+    facebook: "https://www.facebook.com/facebook"
+    twitter: "https://twitter.com/twitter"
+    googleplus: "https://plus.google.com/u/0/115513440703037327143"
+    weibo: "http://weibo.com/91wangmeng"
+    instagram:
+    tumblr:
+    github:
+    linkedin:
+    zhihu:
+    bilibili:
+    telegram:
+
+# SNS Share Switch
+sns_share:
+    twitter: true
+    facebook: true
+    googleplus: true
+    weibo: true
+    linkedin: false
+    qq: false
+    telegram: false
+
+# Sidebar Customize
+sidebar:
+    dropdown:
+        Q ME:
+            link: "http://wpa.qq.com/msgrd?v=3&uin=738297822&site=qq&menu=yes"
+            icon: contacts
+        Email Me:
+            link: "mail://6492178@gmail.com"
+            icon: email
+    homepage:
+        use: true
+        icon: home
+        divider: false
+    archives:
+        use: true
+        icon: inbox
+        divider: false
+    categories:
+        use: false
+        icon: chrome_reader_mode
+        divider: false
+    pages:
+        关于我:
+                link:   "/about/"
+        标签云:
+                link:   "/tags/"
+    article_num:
+        use: false
+        divider: false
+    footer:
+        divider: true
+        theme: true
+        support: false
+        feedback: false
+        material: false
+
+# Qrcode for redirect at other device
+qrcode: false
+
+# ---------------------------------------------------------------
+# Integrated Services
+# ---------------------------------------------------------------
+# prism_plugin
+prism_plugin:
+  mode: 'realtime'    # realtime/preprocess
+  theme: 'dark'
+  line_number: true    # default false
+# MaterialCDN
+# When you set 'use' as true, the needed css, js, font file will have a new src.
+# The new src will have the base domain you configured in 'base'.
+materialcdn: 
+    use: 
+    base: 
+
+# Comment Systems
+# Available value of "use":
+#     duoshuo | disqus | disqus_click | changyan
+comment:
+    use:
+    shortname: 91wangmeng
+    duoshuo_thread_key_type: path
+    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+    changyan_appid:
+    changyan_conf:
+    changyan_thread_key_type: path
+# Search Systems
+# Available value:
+#     swiftype | google | local
+search:
+    use: google
+    swiftype_key:
+
+# Analytics Systems
+analytics:
+    baidu_id:
+    google_id:
+
+# Leancloud Views
+leancloud:
+    enable: false
+    app_id: fA3ovwqjkFKb2tvgdcpCBRn3-gzGzoHsz
+    app_key: X7DFk1YaeoOjoyEoXxphCre8
+    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+
+# Busuanzi 不蒜子 Views
+busuanzi:
+    enable: true
+    all_site_uv: true
+    post_pv: true
+    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+
