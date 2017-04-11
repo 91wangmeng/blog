@@ -136,6 +136,8 @@ sidebar:
                 link:   "/about/"
         标签云:
                 link:   "/tags/"
+        倒计时:
+                link:   "/countdown/"
     article_num:
         use: false
         divider: false
