@@ -93,7 +93,7 @@
 		$("#jquery_jplayer_1").jPlayer({
         ready: function() {
           $(this).jPlayer("setMedia", {
-            mp3: "http://sc.111ttt.com/up/mp3/106040/A3194F8A3266219165E49C5B00EC774E.mp3"
+            mp3: "http://up.mcyt.net/md5/17/NDg4NDk0Nw_Qq4329912.mp3"
           }).jPlayer("play");
           var click = document.ontouchstart === undefined ? 'click' : 'touchstart';
           var kickoff = function () {
