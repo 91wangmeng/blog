@@ -57,23 +57,23 @@ layout: false
                 <!-- 5.3 countdown container -->
                 <div class="countdown-container" id="lwt-countdown">
                     <div class="dash days_dash wow zoomIn" data-wow-delay="0.4s">
-                        <div class="digit" id="left-day1">3</div>
-                        <div class="digit" id="left-day2">0</div>
+                        <div class="digit">3</div>
+                        <div class="digit">0</div>
                         <span class="dash_title">天</span>
                     </div>
                     <div class="dash hours_dash wow zoomIn" data-wow-delay="0.5s">
-                        <div class="digit" id="left-hour1">0</div>
-                        <div class="digit" id="left-hour2">0</div>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
                         <span class="dash_title">时</span>
                     </div>
                     <div class="dash minutes_dash wow zoomIn" data-wow-delay="0.6s">
-                        <div class="digit" id="left-minute1">0</div>
-                        <div class="digit" id="left-minute2">0</div>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
                         <span class="dash_title">分</span>
                     </div>
                     <div class="dash seconds_dash wow zoomIn" data-wow-delay="0.7s">
-                        <div class="digit" id="left-second1">0</div>
-                        <div class="digit" id="left-second2">0</div>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
                         <span class="dash_title">秒</span>
                     </div>
                 </div>
@@ -110,8 +110,22 @@ layout: false
 <script type="text/javascript" src="/countdown/js/jquery.lwtCountdown-1.0.js"></script>
 <script type="text/javascript" src="/countdown/js/jquery.jplayer.min.js"></script>
 <script type="text/javascript" src="/countdown/js/vegas.min.js"></script>
+<script type="text/javascript" src="/countdown/js/wow.min.js"></script>
 <script type="text/javascript" src="/countdown/js/theme.js"></script>
-<script type="text/javascript" src="/countdown/js/countdown.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('#lwt-countdown').countDown({
+            targetDate: {
+                'day': 29,
+                'month': 4,
+                'year': 2017,
+                'hour': 17,
+                'min': 58,
+                'sec': 0
+            }
+        });
+    });
+</script>
 </body>
 </html>
 

@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: WM的博客
-subtitle:
-description: 一个屌丝码农的自我修养
-author: Vkery
+title: WM的小窝
+subtitle: i'm joker
+description: Oh,Why so serious?
+author: Vker
 language: zh-CN
 timezone:
 
@@ -38,19 +38,16 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
-# prism_plugin
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'default'
-  line_number: false    # default false
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -66,13 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material
+theme: hexo-material
 
+search:
+        path: search.xml
+        field: post
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:91wangmeng/91wangmeng.github.io.git
-  branch: master
-
-
+  repo: https://github.com/91wangmeng/91wangmeng.github.io.git
